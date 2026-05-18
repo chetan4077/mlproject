@@ -13,5 +13,17 @@
     "editor.formatOnPaste": true,
     "editor.mouseWheelZoom": true,
     "C_Cpp.autocomplete": "disabled",
-    "C_Cpp.autocompleteAddParentheses": true
+    "C_Cpp.autocompleteAddParentheses": true,
+    "gitlens.views.commits.files.compact": false,
+    "gitlens.views.repositories.pullRequests.enabled": false,
+    "gitlens.views.repositories.showBranchComparison": false,
+    "gitlens.views.repositories.showCommits": false,
+    "gitlens.views.repositories.showBranches": false,
+    "gitlens.views.repositories.showRemotes": false,
+    "gitlens.views.repositories.showTags": false,
+    "gitlens.views.repositories.showContributors": false,
+    "gitlens.views.repositories.autoRefresh": false,
+    "gitlens.views.repositories.autoReveal": false,
+    "gitlens.views.repositories.avatars": false,
+    "gitlens.views.repositories.files.compact": false
 }
