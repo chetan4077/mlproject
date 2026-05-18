@@ -12,6 +12,7 @@ def get_requirements(file_path:str)->List[str]:
         requirements=[req.replace('\n', '') for req in requirements]
         if HYPHEN_E_DOT in requirements:
             requirements.remove(HYPHEN_E_DOT)
+    return requirements
 
 setup(
     name='mlProject',
@@ -19,5 +20,5 @@ setup(
     author='Chetan',
     email='skylord21303@gmail.com',
     packages=find_packages(), # the places wherever __init__.py is present that will be considered as a package
-    install_requires=get_requirements('requirement.txt')
+    install_requires=get_requirements('requirements.txt')
 )
