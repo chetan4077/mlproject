@@ -1,3 +1,7 @@
+# Files in repo to be ignored
+settigs.json
+projectenv/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

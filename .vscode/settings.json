@@ -1,0 +1,17 @@
+{
+    "launch": {
+
+        "editor.autoClosingBrackets": false,
+
+        "editor.suggestionOnTriggerCharacters": true,
+
+    },
+    "github.copilot.enable": {
+        "*": false
+    },
+    "files.autoSave": "afterDelay",
+    "editor.formatOnPaste": true,
+    "editor.mouseWheelZoom": true,
+    "C_Cpp.autocomplete": "disabled",
+    "C_Cpp.autocompleteAddParentheses": true
+}
