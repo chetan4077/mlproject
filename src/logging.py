@@ -1,1 +1,0 @@
-# Will store logs for project
