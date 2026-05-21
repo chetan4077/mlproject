@@ -1,4 +1,4 @@
-# responsible for exceptopn handling
+# responsible for exception handling
 import sys # contains all exceptions/errors occuring in project
 import logging
 
@@ -31,7 +31,7 @@ class CustomException(Exception):
 #         a=1/0
 #     except Exception as e:
 #         logging.info("Division by Zero")
-#         raise CustomException(e,sys)
+#         raise CustomException(e,sys)for
 
 """
 Example --> model_trainer.py
