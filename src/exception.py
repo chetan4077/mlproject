@@ -1,6 +1,7 @@
 # responsible for exception handling
 import sys # contains all exceptions/errors occuring in project
 import logging
+from src.logger import logging
 
 def error_handler(error,error_detail:sys):
     _,_,exc_tb=error_detail.exc_info() # gives info about the cur exception.
@@ -31,7 +32,7 @@ class CustomException(Exception):
 #         a=1/0
 #     except Exception as e:
 #         logging.info("Division by Zero")
-#         raise CustomException(e,sys)for
+#         raise CustomException(e,sys)
 
 """
 Example --> model_trainer.py
