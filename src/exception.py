@@ -13,10 +13,11 @@ def error_handler(error,error_detail:sys):
             error_handler(e, sys)
     '''
     file_name=exc_tb.tb_frame.f_code.co_filename
-    error_message = "Error occured in python script name [{0}] line number [{1}] error message [{2}]".format(
-    file_name,
-    exc_tb.tb_lineno,
-    str(error)
+    error_message = (
+        f"Error occured in python script name [{file_name}] \n"
+        f"Line number [{exc_tb.tb_lineno}] \n"
+        f"Error message [{error}] \n"
+        f"\n"
     )
     return error_message
 
